@@ -9,4 +9,5 @@ spec:
     - protocol: TCP
       port: 8000  # Port to expose
       targetPort: 8000  # Port the container is listening on
-  type: NodePort  # Change to LoadBalancer or ClusterIP if NodePort is not available
+      nodePort: 30000  # Specify the desired NodePort number
+  type: NodePort
