@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: prom-bitcoin1-service
+spec:
+  selector:
+    app: prom-bitcoin1
+  ports:
+    - protocol: TCP
+      port: 8000  # Port to expose
+      targetPort: 8000  # Port the container is listening on
+  type: NodePort  # Change to LoadBalancer or ClusterIP if NodePort is not available

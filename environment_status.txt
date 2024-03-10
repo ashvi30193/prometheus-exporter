@@ -1,0 +1,6 @@
+Environment status summary:
+------------------------------------
+Docker: Docker version 25.0.3, build 4debf41
+Kubernetes: Client Version: v1.29.1
+Kustomize Version: v5.0.4-0.20230601165947-6ce0bf390ce3
+Server Version: v1.29.1
