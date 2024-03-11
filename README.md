@@ -1,4 +1,4 @@
-# DeviantArt Site Reliability Engineer Hiring Exercise
+# Basic Prometheus Usage Project
 
 Steps:
 
