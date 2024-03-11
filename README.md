@@ -9,6 +9,3 @@ Steps:
 - Deploy prometheus in the local Kubernetes cluster with an ingress with hostname "localhost" on port 80.
 - Get the `bitcoin-exporter` metrics into Prometheus and commit the changes to this repository.
 - Run the `./submit.sh` script to check your local environment and generate a txt file for us to review.
-- Send the resulting `hiring-test-<username>.txt` file to da-sre-hiring-exercise@wix.com for us to review
-- ...
-- Profit!
